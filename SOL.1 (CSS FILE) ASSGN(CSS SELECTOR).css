@@ -1,0 +1,41 @@
+/*B ONE*/
+nav a{
+    color: red;
+}
+/*B TWO*/
+nav > h2{
+    color: green;
+    background-color: pink;
+}
+/*B THREE*/
+div + p{
+    color: red;
+}
+/*C ONE*/
+a[href]{
+    color: red;
+    text-decoration: none;
+}
+/*C TWO*/
+a[class="active"]{
+    color: black;
+    text-decoration: underline;
+}
+/*C THREE*/
+a[target="_self"]{
+    background-color: chocolate;
+}
+/*D ONE*/
+p:last-child::after{
+    content: "...";
+}
+/*D TWO*/
+li::marker{
+    color: pink;
+}
+/*D THREE*/
+p:nth-child(even)::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
